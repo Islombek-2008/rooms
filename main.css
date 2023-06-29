@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: hsl(0, 0%, 0%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.part1 {
+  width: 1151px;
+  height: 552px;
+  /* display: none; */
+}
+
+.part2 {
+  display: none;
+}
+
+.part3 {
+  display: none;
+}
+
+.part1-menu {
+  width: 1120px;
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  line-height: 138.6%;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #e3b873;
+}
+
+.part1 .part1-menu a:nth-child(1) {
+  color: #e3b873;
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+}
+
+.part2 .part1-menu a:nth-child(2) {
+  color: #e3b873;
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+}
+
+.part3 .part1-menu a:nth-child(3) {
+  color: #e3b873;
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+}
+
+.card {
+  display: flex;
+  margin-top: 35px;
+  gap: 50px;
+}
+
+.card-info h1 {
+  width: 253px;
+  color: #e3b873;
+  font-size: 27px;
+  margin-bottom: 34px;
+  line-height: 138.6%;
+  letter-spacing: -1.89px;
+  text-transform: uppercase;
+}
+
+.card-info p {
+  width: 442px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Nunito Sans;
+  line-height: 190.96%;
+  margin-bottom: 42px;
+}
+
+.box {
+  display: flex;
+  gap: 29px;
+}
+.box div {
+  width: 160px;
+}
+
+.box h4 {
+  color: #e3b873;
+  font-size: 18px;
+  line-height: 138.6%;
+  text-transform: uppercase;
+}
+
+.box p {
+  margin-bottom: 34px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 163.68%;
+}
+
+.one-p {
+  width: 100px;
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.part1 i:nth-child(1) {
+  color: rgba(255, 255, 255, 0.3);
+  cursor: not-allowed;
+}
+
+.part3 i:nth-child(5) {
+  color: rgba(255, 255, 255, 0.3);
+  cursor: not-allowed;
+}
+
+.part1 span:nth-child(2) {
+  background: #fff;
+}
+
+.part2 span:nth-child(3) {
+  background: #fff;
+}
+
+.part3 span:nth-child(4) {
+  background: #fff;
+}
+
+.icons span {
+  display: block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+img {
+  width: 679px;
+  height: 482px;
+}
